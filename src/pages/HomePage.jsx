@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './HomePage.module.css';
 
 const HomePage = () => {
@@ -6,7 +7,7 @@ const HomePage = () => {
       <header className={styles.hero}>
         <h1>Welcome to JoCoding</h1>
         <p>Dedikasi dalam menyajikan layanan joki tugas coding terbaik untuk kepuasan anda yang tak terbantahkan</p>
-        <a href="/services" className={styles.cta}>Explore Our Services</a>
+        <Link to="/services" className={styles.cta}>Explore Our Services</Link>
       </header>
       <section className={styles.about}>
         <h2>About Us</h2>

@@ -8,5 +8,6 @@ export default defineConfig({
 
 build: {
   minify: 'esbuild', // atau 'terser' jika ada masalah penyandian
+  outDir: 'dist',
 },
 })
