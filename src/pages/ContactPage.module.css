@@ -1,0 +1,64 @@
+.contactPage {
+    padding: 80px 2rem 4rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contactPage h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .formGroup label {
+    font-weight: bold;
+  }
+  
+  .formGroup input,
+  .formGroup textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .formGroup textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  .submitButton {
+    background-color: #ffd700;
+    color: #1a1a1a;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #ffea00;
+  }
+  
+  @media (max-width: 768px) {
+    .contactPage h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  

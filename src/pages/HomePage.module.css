@@ -1,0 +1,93 @@
+.homePage {
+    padding-top: 60px;
+  }
+  
+  .hero {
+    background-image: url('https://i.pinimg.com/236x/ae/19/97/ae1997011b9389a60c2b41f5d9a26d0d.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta {
+    background-color: #ffd700;
+    color: #1a1a1a;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta:hover {
+    background-color: #ffea00;
+  }
+  
+  .about, .services {
+    text-align: center;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about h2, .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .about p, .quote {
+    font: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .serviceGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .serviceCard {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .serviceCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .serviceCard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  
